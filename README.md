@@ -16,5 +16,5 @@ django-admin startproject Auth_app
 cd Auth_app
 python manage.py runserver
 ```
--**Open your browser and go to http://127.0.0.1:8000/
--**You can run the development server on your desired port also.
+-**Open your browser and go to http://127.0.0.1:8000/**
+-**You can run the development server on your desired port also.**
