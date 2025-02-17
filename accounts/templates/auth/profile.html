@@ -1,0 +1,10 @@
+<!-- auth/profile.html -->
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Profile</h2>
+  <p>Username: {{ username }}</p>
+  <p>Email: {{ email }}</p>
+  <p>Date Joined: {{ date_joined }}</p>
+  <p>Last Login: {{ last_login }}</p>
+  <a href="{{ dashboard_url }}">Back to Dashboard</a> | <a href="{{ logout_url }}">Logout</a>
+{% endblock %}
